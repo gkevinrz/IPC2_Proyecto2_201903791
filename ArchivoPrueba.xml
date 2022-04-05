@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuracion>
+    <listaCiudades>
+        <ciudad>
+            <nombre filas="10" columnas="10">Ciudad Prueba No. 1</nombre>
+            <fila numero="0">"****  C***"</fila>
+            <fila numero="1">"** * *****"</fila>
+            <fila numero="2">"** * **  R"</fila>
+            <fila numero="3">"E       **"</fila>
+            <fila numero="4">"******* **"</fila>
+            <fila numero="5">"R       **"</fila>
+            <fila numero="6">"** ****  C"</fila>
+            <fila numero="7">"** ***  **"</fila>
+            <fila numero="8">"** *** ***"</fila>
+            <fila numero="9">"**E*** ***"</fila>
+            <unidadMilitar fila="1" columna="4">20</unidadMilitar>
+            <unidadMilitar fila="5" columna="5">35</unidadMilitar>
+        </ciudad>
+        <ciudad>
+            <nombre filas="20" columnas="20">Atlantis</nombre>
+            <fila numero="0">"************E*******"</fila>
+            <fila numero="1">"**  C     ** **  R**"</fila>
+            <fila numero="2">"** ****** ** ** ****"</fila>
+            <fila numero="3">"**   **** ** ** ****"</fila>
+            <fila numero="4">"**** ****       ****"</fila>
+            <fila numero="5">"**** **** ** ** **C*"</fila>
+            <fila numero="6">"E    **** ** ** ** *"</fila>
+            <fila numero="7">"*** ***** ** ** ** *"</fila>
+            <fila numero="8">"***       ** **    *"</fila>
+            <fila numero="9">"*** ** ** ** ** ****"</fila>
+            <fila numero="10">"*** ** **R** ** ****"</fila>
+            <fila numero="11">"*** ** ***** ** ****"</fila>
+            <fila numero="12">"R      ** ** ** ****"</fila>
+            <fila numero="13">"** ***             E"</fila>
+            <fila numero="14">"** *** *** ****** **"</fila>
+            <fila numero="15">"** *** *** **   * **"</fila>
+            <fila numero="16">"**C*** ***    *   **"</fila>
+            <fila numero="17">"** ******* ****** **"</fila>
+            <fila numero="18">"**         ******C**"</fila>
+            <fila numero="19">"******E*************"</fila>
+            <unidadMilitar fila="3" columna="4">35</unidadMilitar>
+            <unidadMilitar fila="4" columna="14">40</unidadMilitar>
+            <unidadMilitar fila="8" columna="8">15</unidadMilitar>
+            <unidadMilitar fila="13" columna="13">50</unidadMilitar>
+            <unidadMilitar fila="16" columna="6">25</unidadMilitar>
+        </ciudad>
+        <ciudad>
+            <nombre filas="10" columnas="15">Gotham</nombre>
+            <fila numero="0">"***E***********"</fila>
+            <fila numero="1">"*** ******  C**"</fila>
+            <fila numero="2">"***        ****"</fila>
+            <fila numero="3">"*C  ** *** ** E"</fila>
+            <fila numero="4">"*** **R***    *"</fila>
+            <fila numero="5">"*** ****** ** *"</fila>
+            <fila numero="6">"*        * ** *"</fila>
+            <fila numero="7">"* *** **      *"</fila>
+            <fila numero="8">"E ***R** ******"</fila>
+            <fila numero="9">"********C******"</fila>
+            <unidadMilitar fila="2" columna="8">75</unidadMilitar>
+            <unidadMilitar fila="6" columna="2">15</unidadMilitar>
+            <unidadMilitar fila="7" columna="12">60</unidadMilitar>
+        </ciudad>
+        <ciudad>
+            <nombre filas="15" columnas="10">Smallville</nombre>
+            <fila numero="0">"* R*****E*"</fila>
+            <fila numero="1">"* ****** *"</fila>
+            <fila numero="2">"*    C** *"</fila>
+            <fila numero="3">"** ***** *"</fila>
+            <fila numero="4">"*R ***** *"</fila>
+            <fila numero="5">"** **    *"</fila>
+            <fila numero="6">"**    ** *"</fila>
+            <fila numero="7">"** ***** *"</fila>
+            <fila numero="8">"E        *"</fila>
+            <fila numero="9">"** *******"</fila>
+            <fila numero="10">"** *****R*"</fila>
+            <fila numero="11">"**    ** *"</fila>
+            <fila numero="12">"**C**    *"</fila>
+            <fila numero="13">"***** ****"</fila>
+            <fila numero="14">"*****E****"</fila>
+            <unidadMilitar fila="2" columna="2">15</unidadMilitar>  
+            <unidadMilitar fila="5" columna="6">25</unidadMilitar>
+            <unidadMilitar fila="11" columna="5">20</unidadMilitar>
+        </ciudad>        
+    </listaCiudades>
+    <robots>
+        <robot>
+            <nombre tipo="ChapinFighter" capacidad="150">Peleador1</nombre>
+            <nombre tipo="ChapinRescue">Rescatador1</nombre>
+            <nombre tipo="ChapinFighter" capacidad="50">Peleador2</nombre>
+            <nombre tipo="ChapinFighter" capacidad="70">Peleador3</nombre>
+            <nombre tipo="ChapinRescue">Rescatador2</nombre>
+            <nombre tipo="ChapinRescue">Rescatador3</nombre>
+        </robot>
+    </robots>
+</configuracion>
